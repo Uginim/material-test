@@ -1,0 +1,38 @@
+
+:root {
+  --google-red-300: #E57373;
+  --google-red-900: #b71c1c;
+  --google-blue-300: #64b5f6;
+  --google-blue-900: #0D47A1;
+}
+
+.redblue-toggle {
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  
+  background: var(--google-red-300);
+  color: var(--google-blue-900);
+}
+
+.redblue-toggle--toggled {
+  background: var(--google-blue-300);
+  color: var(--google-red-900);
+}
+
+/* Superfluous styles below */
+
+html, body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
